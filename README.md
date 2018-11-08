@@ -24,6 +24,8 @@ npm install -g ganache-cli
 npm install
 ```
 
++ VS-Code Solidity Plugin ;)
+
 # Metamask
 ## Setup
 Metamask is a very nifty tool to interact with different blockchains and wallets directly from your browser. Please install the Plugin (available for Chrome, Firefox and Opera) by visiting
