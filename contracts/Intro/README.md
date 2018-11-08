@@ -8,6 +8,14 @@ ganache-cli -p 7777
 
 Start the network into a seperate terminal window
 
+### Windows
+
+If you are working on a Windows machine follow these steps to be able to deploy a smart contract:
+
+- search and copy **truffle.cmd** (located: `C:\Users\yourUser\AppData\Roaming\npm\truffle.cmd`) into the root directory of your project
+- rename it to something like "truf.cmd"
+- From now on whenever you deploy a smart contract use the `truf.cmd`
+
 # 1_HelloWorld.sol
 
 Lets create our first hello world example by writing the following code
@@ -46,12 +54,6 @@ module.exports = function(deployer) {
 ```
 
 Everything is set-up now. Lets deploy it to the development network that we set up in the `truffle.js`
-
-If you are working on a WINDOWS machine follow these steps to move on:
-
-- search and copy "truffle.cmd" into the root directory (usually located in - C:\Users\yourUser\AppData\Roaming\npm\truffle.cmd)
-- rename it to something like "truf.cmd"
-- use truffle with "truf.cmd" instead of "truffle"
 
 ```bash
 truffle migrate --network development --reset
